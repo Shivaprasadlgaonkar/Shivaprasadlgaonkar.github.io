@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focal — A timer for one thing at a time</title>
+    <meta name="description" content="Focal is a distraction-free focus timer. One task, one timer, no tabs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="wrap">
+        <div class="logo">Focal</div>
+        <a class="nav-cta" href="#start">Start a session</a>
+    </nav>
+
+    <section class="hero">
+        <div class="wrap">
+            <div>
+                <h1>One task.<br>One timer.<br>Nothing else open.</h1>
+                <p class="lede">Focal blocks out everything but the thing you're doing right now. No tabs, no lists, no
+                    settings to tune before you start.</p>
+                <div class="cta-row">
+                    <button class="btn-primary" id="startBtn" type="button">Start a 25-minute session</button>
+                    <span class="hint" id="statusHint">No sign-up. Runs in this tab.</span>
+                </div>
+            </div>
+            <div class="timer-visual" aria-hidden="true">
+                <svg viewBox="0 0 100 100">
+                    <circle class="timer-ring-bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="timer-ring" id="ringEl" cx="50" cy="50" r="45"></circle>
+                    <text x="50" y="52" text-anchor="middle" class="timer-label" id="timeLabel">25:00</text>
+                    <text x="50" y="68" text-anchor="middle" class="timer-sub">FOCUS</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="wrap">
+            <h2>Three steps, then you're working</h2>
+            <div class="step-list">
+                <div class="step">
+                    <div class="num">01</div>
+                    <h3>Name the one thing</h3>
+                    <p>Type what you're about to work on. Not a list — one thing.</p>
+                </div>
+                <div class="step">
+                    <div class="num">02</div>
+                    <h3>Set the length</h3>
+                    <p>25, 45, or a custom length. Focal remembers your last choice.</p>
+                </div>
+                <div class="step">
+                    <div class="num">03</div>
+                    <h3>The tab locks</h3>
+                    <p>Switch away and Focal marks the session broken. That's the whole mechanism.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="wrap">
+            <div class="features-head">
+                <h2>Built to remove decisions, not add them</h2>
+                <p>Most focus apps hand you more to configure. Focal starts with almost nothing to set.</p>
+            </div>
+
+            <div class="feature-row">
+                <h3>Single-task lock</h3>
+                <p>Only one session can run at a time, on purpose. Starting a new one ends the last.</p>
+            </div>
+            <div class="feature-row">
+                <h3>Break honesty</h3>
+                <p>Leaving the tab doesn't pause the timer — it ends the session and logs it as interrupted, not
+                    completed.</p>
+            </div>
+            <div class="feature-row">
+                <h3>A quiet history</h3>
+                <p>A plain log of finished and broken sessions. No streaks, no points, no badges.</p>
+            </div>
+            <div class="feature-row">
+                <h3>Works offline</h3>
+                <p>No account, no server round-trip to start a timer. It's a tab and a clock.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote">
+        <div class="wrap">
+            <blockquote>
+                "I stopped opening it to check my progress and started opening it to actually work. That was the point I
+                hadn't noticed I was missing."
+                <cite>— an early user, paraphrased from feedback</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="closing" id="start">
+        <div class="wrap">
+            <h2>Pick one thing. Start the clock.</h2>
+            <div class="cta-row">
+                <button class="btn-primary" id="startBtn2" type="button">Start a session</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <span>Focal — a focus timer, nothing more</span>
+            <span>Built with HTML, CSS &amp; JavaScript</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

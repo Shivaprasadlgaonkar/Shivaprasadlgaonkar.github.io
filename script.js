@@ -10,7 +10,7 @@ const projects = [
     tier: "Foundations",
     tag: "",
     status: "live",
-    folder: "01-landing-page",
+    folder: "1-FocaL-A-timer",
   },
   {
     n: 2,
@@ -18,7 +18,7 @@ const projects = [
     tier: "Foundations",
     tag: "",
     status: "live",
-    folder: "02-accordion-tabs",
+    folder: "2-Accordion-Tabs",
   },
 
   // ---- Tier 1: Foundations — uncomment as each is built ----

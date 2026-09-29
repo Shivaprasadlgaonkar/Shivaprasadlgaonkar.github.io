@@ -23,12 +23,7 @@ Just open `index.html` in a browser — no dependencies, no build step.
 ## Deploy this folder to GitHub Pages
 Assuming your portfolio repo is structured as:
 ```
-your-portfolio-repo/
-  01-landing-page/
-    index.html
-    README.md
-  02-kanban-board/
-  ...
+
 ```
 
 Since GitHub Pages serves one site per repo (from root or `/docs`), for a **multi-project repo** the cleanest option is:

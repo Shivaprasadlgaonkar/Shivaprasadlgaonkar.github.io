@@ -37,8 +37,8 @@ Every project below lives in its own folder in this repo. On the [live site](htt
 ### Tier 1 — Foundations
 | # | Project | Notes | Status |
 |---|---|---|---|
-| 01 | [Responsive Landing Page](./01-landing-page) | Working SVG countdown timer demo | ✅ Live |
-| 02 | [Accordion & Tabs](./02-accordion-tabs) | Hand-built ARIA patterns | ✅ Live |
+| 01 | [Responsive Landing Page](./1-Focal-A-timer) | Working SVG countdown timer demo | ✅ Live |
+| 02 | [Accordion & Tabs](./2-accordion-tabs) | Hand-built ARIA patterns | ✅ Live |
 
 <!-- Uncomment each row below as you finish that project — add it back into the table above with its status changed to ✅ Live.
 | 03 | Bootstrap Portfolio Template `Bootstrap` | | Planned |

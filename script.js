@@ -121,11 +121,10 @@ tiers.forEach((tierName) => {
       </div>
       <h3>${p.t}</h3>
       <div class="tags">${tagHtml}</div>
-      <div class="card-actions">
+  <div class="card-actions">
         ${
           isLive
-            ? `<button class="btn" data-folder="${p.folder}" data-title="${p.t}">Live demo</button>
-             <a class="btn secondary" href="./${p.folder}/" target="_blank" rel="noopener">Source</a>`
+            ? `<button class="btn" data-folder="${p.folder}" data-title="${p.t}">Live demo</button>`
             : `<button class="btn disabled" disabled>Coming soon</button>`
         }
       </div>`;
